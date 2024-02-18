@@ -1,0 +1,267 @@
+.navbar {
+    display: flex;
+    border-bottom: 1px solid #C0C0C0;
+    justify-content:center;
+}
+
+.navbar-container {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+  }
+  
+  .logo {
+    gap: 8px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .logo-text {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color: #282828;
+  }
+
+.nav-item {
+    margin: 10px;
+    display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+cursor: pointer;
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+.nav-item:hover {
+    color: rgb(20, 52, 194);
+    transform: scale(1.2)
+}
+
+.nav-item-button{
+    text-decoration: none !important;
+    color: #282828;
+}
+
+.nav-item-button:hover {
+    color: rgb(20, 52, 194);
+      transform: scale(1.2)
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.content {
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 230px;
+    padding: 0;
+}
+
+.management {
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0;
+  gap: 10px;
+}
+
+.select-1 {
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+}
+
+.select {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 12px;
+  border-radius: 10px;
+  border: solid 1.5px rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+  gap: 4px;
+}
+
+.select-inf {
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.inf {
+  align-self: stretch;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 4px;
+  padding: 0;
+}
+
+.text-inf {
+    align-self: stretch;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.59px;
+  text-align: left;
+  color: #848484;
+}
+
+.text-inf2 {
+    align-self: stretch;
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.72px;
+  text-align: left;
+  color: #000;
+}
+
+.indication {
+    flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.72px;
+  text-align: left;
+  color: #000;
+}
+
+.select-img {
+    width: 29.3px;
+    height: 29.3px;
+}
+
+.select-title {
+    gap: 88px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.togle {
+    width: 51px;
+    height: 31px;
+    flex-grow: 0;
+    padding: 2px 22px 2px 2px;
+    border-radius: 100px;
+}
+
+.photing {
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 140px;
+    padding: 0;
+}
+
+.img-tomat {
+    display: flex;
+    width: 300px;
+    height: 293px;
+    flex-grow: 0;
+    order: 2;
+}
+
+.information {
+    display: flex;
+    padding: 40px 80px 80px 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    }
+    
+.social-network {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    }
+    
+.social-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    }
+    
+.ds {
+    width: 20px;
+    height: 20px;
+    }
+    
+    .my-git {
+    width: 20px;
+    height: 20px;
+    }
+    
+.social-text {
+    display: flex;
+    width: 1216px;
+    flex-direction: column;
+    color: var(--neutral-400, #5A6475);
+    text-align: center;
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    }
